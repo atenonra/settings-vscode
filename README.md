@@ -1,2 +1,4 @@
-# SettingsVSCode
-Settings.json and .eslintrc.js for 
+# settings-vscode
+
+settings.json
+.eslintrc.js
