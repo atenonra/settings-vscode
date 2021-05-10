@@ -1,0 +1,45 @@
+{
+  "window.zoomLevel": 1,
+
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.jsxSingleQuote": true, // оборачивать строки jsx файлов в одинарные кавычки
+  "prettier.singleQuote": true, // оборачивать строки js файлов в одинарные кавычки
+  "prettier.trailingComma": "none", // не устанавливать запятую после элементов массива, объекта и т.п.
+  // "[json]": {
+  //   "editor.defaultFormatter": "vscode.json-language-features"
+  // },
+  // "[html]": {
+  //   "editor.defaultFormatter": "vscode.html-language-features"
+  // },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": ""
+  // },
+
+  "vetur.format.defaultFormatter.js": "prettier-eslint", // форматирование файлов .js 'prettier-eslint'
+  "autoprefixer.formatOnSave": true, // добавлять вендорные префиксы в css правилах при сохранении файла
+
+  "files.associations": {
+    "*.jsx": "javascript",
+    "*.bs*": "javascript"
+  },
+
+  "workbench.colorTheme": "Arc Dark",
+  "workbench.statusBar.visible": true,
+  "editor.renderWhitespace": "none",
+
+  "git.suggestSmartCommit": false,
+  "gitlens.views.repositories.files.layout": "tree",
+  "gitlens.views.commits.showBranchComparison": "branch",
+  "gitlens.views.formats.commits.label": "${committerAgo ➤  }${message}",
+
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  
+  // "editor.renderControlCharacters": false,
+  // "json.maxItemsComputed": 10000
+}
